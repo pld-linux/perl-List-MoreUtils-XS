@@ -4,7 +4,6 @@
 #
 %define		pdir	List
 %define		pnam	MoreUtils-XS
-%include	/usr/lib/rpm/macros.perl
 Summary:	List::MoreUtils::XS - Provide compiled List::MoreUtils functions
 Summary(pl.UTF-8):	List::MoreUtils::XS - skompilowane funkcje List::MoreUtils
 Name:		perl-List-MoreUtils-XS
