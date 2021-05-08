@@ -8,7 +8,7 @@ Summary:	List::MoreUtils::XS - Provide compiled List::MoreUtils functions
 Summary(pl.UTF-8):	List::MoreUtils::XS - skompilowane funkcje List::MoreUtils
 Name:		perl-List-MoreUtils-XS
 Version:	0.428
-Release:	4
+Release:	5
 # for code before 0.417: same as perl 5.8.4 or later
 License:	Apache v2.0 (code since 0.417), GPL v1+ or Artistic (older code)
 Group:		Development/Languages/Perl
