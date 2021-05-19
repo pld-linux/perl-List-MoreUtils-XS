@@ -7,16 +7,17 @@
 Summary:	List::MoreUtils::XS - Provide compiled List::MoreUtils functions
 Summary(pl.UTF-8):	List::MoreUtils::XS - skompilowane funkcje List::MoreUtils
 Name:		perl-List-MoreUtils-XS
-Version:	0.428
-Release:	6
+Version:	0.430
+Release:	1
 # for code before 0.417: same as perl 5.8.4 or later
 License:	Apache v2.0 (code since 0.417), GPL v1+ or Artistic (older code)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/List/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	79939a9c2deb83ea2fa7fcbd3ad9c5c9
+# Source0-md5:	e77113e55b046906aecfb4ddb4f0c662
 URL:		https://metacpan.org/release/List-MoreUtils-XS
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Storable
 BuildRequires:	perl-Test-Simple >= 0.96
